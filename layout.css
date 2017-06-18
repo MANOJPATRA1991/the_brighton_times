@@ -66,6 +66,14 @@
     order: 1;
     width: 40%;
   }
+  .scores {
+    order: 2;
+    width: 60%;
+  }
+  .top-news {
+    order: 3;
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 700px) {
