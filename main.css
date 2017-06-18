@@ -74,7 +74,6 @@ ul {
   color: #212121;
 }
 
-
 /*
  *
  * Top Level Navigation
@@ -143,7 +142,7 @@ main {
  */
 
 .hero {
-  max-width: 100%;
+  width: 100%;
   position: relative;
   background-image: url("./images/dog.jpg");
   background-size: cover;
@@ -380,3 +379,4 @@ footer a {
   padding: 1.5em;
   color: #333;
 }
+
