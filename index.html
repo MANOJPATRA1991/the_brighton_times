@@ -7,6 +7,8 @@
     <title>Brighton Times</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <script src="https://use.fontawesome.com/7af01a36fc.js"></script>
   </head>
   <body>
 
@@ -16,6 +18,9 @@
         <h1 class="header__title">
           The Brighton Times
         </h1>
+        <a id="menu" class="menu-bar">
+          <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+        </a>
       </div>
     </header>
 
@@ -178,5 +183,31 @@
         </ul>
       </footer>
     </main>
+    <script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var fa = document.querySelector('i');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+      
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        if(fa.classList.contains("fa-bars")){
+          fa.classList.remove("fa-bars");
+          fa.classList.add("fa-times");
+        }else{
+          fa.classList.remove("fa-times");
+          fa.classList.add("fa-bars");
+        }
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
   </body>
 </html>
+
