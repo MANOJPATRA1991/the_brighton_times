@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Installlation](#installation)
+2. [Installation](#installation)
 3. [Demo](#Demo)
 5. [Reference](#reference)
 6. [License](#license)
@@ -39,11 +39,11 @@ Here, we are creating new images with reduced width and quality, for use within 
 
 ### Demo
 
-You can check the demo of the website ![here](https://youtu.be/v7mIOb7yetE).
+You can check the demo of the website [here](https://youtu.be/v7mIOb7yetE).
 
 ### Reference
 1. [Grunt](https://gruntjs.com/)
 2. [Responsive Images](https://classroom.udacity.com/courses/ud882-nd)
 
-### Licence
+### License
 The content of this repository is licensed under [MIT](https://choosealicense.com/licenses/mit/).
