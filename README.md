@@ -12,7 +12,7 @@ A simple news style website made as part of project assignment during the **[Uda
 The website is responsive to various display devices.
 While building this website, the basics of responsive web design and responsive images were put into practice.
 
-### Installation
+## Installation
 
 The project requires [nodeJS](https://nodejs.org/en/download/) in order to install the required node modules.
 
@@ -37,13 +37,13 @@ To run grunt tasks, in command prompt type `grunt`.
 
 Here, we are creating new images with reduced width and quality, for use within our responsive website. The new images are created with 400 x 267 and file size: 18.1 KB(original image 2047 x 1364, file size: 433 KB) inside `images_resp` folder.
 
-### Demo
+## Demo
 
 You can check the demo of the website [here](https://youtu.be/v7mIOb7yetE).
 
-### Reference
+## Reference
 1. [Grunt](https://gruntjs.com/)
 2. [Responsive Images](https://classroom.udacity.com/courses/ud882-nd)
 
-### License
+## License
 The content of this repository is licensed under [MIT](https://choosealicense.com/licenses/mit/).
